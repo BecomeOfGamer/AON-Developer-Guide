@@ -9,9 +9,7 @@
 ## 安裝引擎
 
 1. 新增引擎  
-    ![img](/assets/2018-03-30_172931.png)
+    ![Image](https://i.imgur.com/fsEOCi3.png)
     
-2. 選擇 4.19.0
-
-3. 安裝完成
-    ![](/assets/2018-03-30_173053.png)
+2. 安裝 4.19.0  
+    ![Image](https://i.imgur.com/PGoIbjO.png)
