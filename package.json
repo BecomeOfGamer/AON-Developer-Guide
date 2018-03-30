@@ -10,16 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/explooosion/AON-Developer-Guide.git"
+    "url": "git+https://github.com/RemakeAONTeam/AON-Developer-Guide.git"
   },
-  "keywords": [],
+  "keywords": ["gitbook", "unreal-engine", "documentaion"],
   "author": "RemakeAONTeam",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/explooosion/AON-Developer-Guide/issues"
+    "url": "https://github.com/RemakeAONTeam/AON-Developer-Guide/issues"
   },
-  "homepage": "https://github.com/explooosion/AON-Developer-Guide#readme",
-  "dependencies": {
-    "http-server": "^0.11.1"
-  }
+  "homepage": "https://github.com/RemakeAONTeam/AON-Developer-Guide#readme"
 }
