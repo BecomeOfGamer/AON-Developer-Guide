@@ -44,3 +44,4 @@ npm run build
 ```bash
 npm run pdf
 ```
+> 如果 OS 為 Windows，請先安裝 [Calibre](https://calibre-ebook.com/download_windows)，並重啟終端機。
