@@ -25,7 +25,8 @@ npm run dev
 
 #### Edit
 
-目前圖片都是放置於 imgur，如果要在文中插入圖片，請安裝 [vscode-imgur](https://github.com/MaxfieldWalker/vscode-imgur)，並配置設定，就可以使用快速鍵，在編輯器中貼入圖片並自動上傳。
+目前圖片都是放置於 imgur，如果要在文中插入圖片，請安裝 [vscode-imgur](https://github.com/MaxfieldWalker/vscode-imgur)，就可以使用快速鍵，在編輯器中貼入圖片並自動上傳。
+> 已不需要再額外編寫設定檔案，設定檔已存於 `.vscode` / `settings.json`
 
 > 快速鍵 `Ctrl` + `Alt` + `V`
 
