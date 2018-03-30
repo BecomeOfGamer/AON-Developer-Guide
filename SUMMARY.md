@@ -1,6 +1,6 @@
 * [**1.** 環境安裝](source/ch1/install.md)
   * [**1.1.** Unreal](source/ch1/unreal.md)
-  * [**1.2.** Visual Studio 2017 ]()
+  * [**1.2.** Visual Studio 2017 ](source/ch1/vs.md)
   * [**1.3.** Git]()
   * [**1.4.** Git lfs]()
 * [**2.** 專案執行](source/ch2/repo.md)
