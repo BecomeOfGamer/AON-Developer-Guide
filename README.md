@@ -45,3 +45,7 @@ npm run build
 npm run pdf
 ```
 > 如果 OS 為 Windows，請先安裝 [Calibre](https://calibre-ebook.com/download_windows)，並重啟終端機。
+
+### Repository
+
+[explooosion - AON-Developer-Guide](https://github.com/explooosion/AON-Developer-Guide)
