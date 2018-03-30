@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "gitbook serve --port 8080",
-    "build": "gitbook build . ./publish",
+    "build": "gitbook build . ./docs",
     "pdf": "gitbook pdf . AON-Doc.pdf"
   },
   "repository": {

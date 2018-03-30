@@ -9,8 +9,7 @@
 - [RemakeAONTeam](https://github.com/RemakeAONTeam)
 - [Patreon](https://www.patreon.com/nobu_game/posts)
 - [信長的野望 重製小隊](https://www.facebook.com/Remake.AON/)
-
-
+- [GitBook](https://www.gitbook.com/book/explooosion/aon-developer-guide/details)
 
 ### Global Installation
 
