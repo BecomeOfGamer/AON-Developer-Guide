@@ -41,7 +41,7 @@ npm run dev
 
 ### Build To HTML
 
-使用 `build` 編譯出靜態檔案，輸出目錄為當前路徑底下的 `publish` 資料夾。
+使用 `build` 編譯出靜態檔案，輸出目錄為當前路徑底下的 `doc` 資料夾。
 ```bash
 npm run build
 ```
