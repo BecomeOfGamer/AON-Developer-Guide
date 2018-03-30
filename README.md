@@ -28,7 +28,7 @@ npm install -g gitbook-cli
 npm run dev
 ```
 
-如果要監控檔案的變更即時編譯，請於第一次執行 `server` 後刪除 _book，後續的變更皆會重新編譯，網頁會自動刷新。
+如果要監控檔案的變更即時編譯，請於第一次執行 `server` 後刪除 資料夾 `_book`，後續的變更皆會重新編譯，網頁會自動刷新。
 > 此問題來自 [git serve can't restart when file changes #1379](https://github.com/GitbookIO/gitbook/issues/1379)  
 
 ### Build To HTML
