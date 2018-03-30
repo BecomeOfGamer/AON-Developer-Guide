@@ -23,7 +23,7 @@ npm install -g gitbook-cli
 
 ### Run Gitbook
 
-##### Load
+#### Load
 
 使用 `dev` 可以在本地 [http://192.168.0.100:8080](http://192.168.0.100:8080) 進行閱讀。
 ```bash
@@ -33,7 +33,7 @@ npm run dev
 如果要監控檔案的變更即時編譯，請於第一次執行 `server` 後刪除 資料夾 `_book`，後續的變更皆會重新編譯，網頁會自動刷新。
 > 此問題來自 [git serve can't restart when file changes #1379](https://github.com/GitbookIO/gitbook/issues/1379)    
 
-##### Edit
+#### Edit
 
 目前圖片都是放置於 imgur，如果要在文中插入圖片，請安裝 [vscode-imgur](https://github.com/MaxfieldWalker/vscode-imgur)，並配置設定，就可以使用快速鍵，在編輯器中貼入圖片並自動上傳。
 
