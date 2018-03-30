@@ -12,11 +12,16 @@
     "type": "git",
     "url": "git+https://github.com/RemakeAONTeam/AON-Developer-Guide.git"
   },
-  "keywords": ["gitbook", "unreal-engine", "documentaion"],
+  "keywords": [
+    "gitbook",
+    "unreal-engine",
+    "documentaion"
+  ],
   "author": "RemakeAONTeam",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/RemakeAONTeam/AON-Developer-Guide/issues"
   },
-  "homepage": "https://github.com/RemakeAONTeam/AON-Developer-Guide#readme"
+  "homepage": "https://github.com/RemakeAONTeam/AON-Developer-Guide#readme",
+  "dependencies": {}
 }
