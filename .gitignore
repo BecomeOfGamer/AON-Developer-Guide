@@ -1,0 +1,7 @@
+# File
+yarn-error.log
+
+# Folder
+node_modules
+dist
+_book
