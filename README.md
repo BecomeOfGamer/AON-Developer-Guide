@@ -48,4 +48,4 @@ npm run pdf
 
 ### Repository
 
-[explooosion - AON-Developer-Guide](https://github.com/explooosion/AON-Developer-Guide)
+Gitbook repo - [AON-Developer-Guide](https://github.com/explooosion/AON-Developer-Guide)
