@@ -12,4 +12,4 @@
 
 ### Repository
 
-Gitbook repo - [AON-Developer-Guide](https://github.com/explooosion/AON-Developer-Guide)
+Gitbook repo - [AON-Developer-Guide](https://github.com/RemakeAONTeam/AON-Developer-Guide)
