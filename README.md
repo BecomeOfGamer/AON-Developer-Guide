@@ -1,5 +1,9 @@
 # AON-Developer-Guide
 
+[![forthebadge](https://forthebadge.com/images/badges/fuck-it-ship-it.svg)](https://remakeaonteam.github.io/AON-Developer-Guide/)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/GitbookIO/gitbook-cli)
+[![forthebadge](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://www.facebook.com/Remake.AON/)
+
 自己的英雄自己做，本書為 [AON](https://github.com/RemakeAONTeam/AON) 的開發指南，如果你也有興趣參與開發，歡迎閱讀分享。  
 ### About
 
