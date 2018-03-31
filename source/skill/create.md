@@ -1,4 +1,4 @@
-# 新增技能 
+# 新增技能 Create Skill
 
 <hr>
 
