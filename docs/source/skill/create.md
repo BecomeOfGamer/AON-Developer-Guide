@@ -2,7 +2,7 @@
 
 <hr>
 
-### 下載軟體
+### 建立
 
 1. 在Content Browser底下的 **Content**  \> **MOBA** > **Hero** > **_英雄代號_** \> **Skill** 資料夾下滑鼠右鍵新增一個Blueprint Class  
 ![](https://i.imgur.com/uKQ3uaA.png)
