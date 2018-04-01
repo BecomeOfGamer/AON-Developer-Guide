@@ -1,10 +1,10 @@
 
 <!DOCTYPE HTML>
-<html lang="" >
+<html lang="zh" >
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Edit GitBook · GitBook</title>
+        <title>Edit GitBook · AON-Developer-Guide</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -17,7 +17,15 @@
     
             
                 
-                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-disqus/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-prism/prism.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
                 
             
                 
@@ -73,7 +81,7 @@
         
             
 <div id="book-search-input" role="search">
-    <input type="text" placeholder="Type to search" />
+    <input type="text" placeholder="輸入並搜尋" />
 </div>
 
             
@@ -453,7 +461,7 @@
 
     <li>
         <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
-            Published with GitBook
+            本書使用 GitBook 釋出
         </a>
     </li>
 </ul>
@@ -499,12 +507,14 @@
 <blockquote>
 <p>&#x8ACB;&#x78BA;&#x8A8D;&#x662F;&#x5426;&#x5DF2;&#x5B89;&#x88DD; <a href="https://nodejs.org/en/" target="_blank">Nodejs</a></p>
 </blockquote>
-<pre><code class="lang-bash">npm install -g gitbook-cli
+<pre class="language-"><code class="lang-bash"><span class="token function">npm</span> <span class="token function">install</span> -g gitbook-cli
+</code></pre>
+<pre class="language-"><code class="lang-bash">gitbook <span class="token function">install</span>
 </code></pre>
 <h3 id="run-gitbook">Run Gitbook</h3>
 <h4 id="view">View</h4>
 <p>&#x4F7F;&#x7528; <code>dev</code> &#x53EF;&#x4EE5;&#x5728;&#x672C;&#x5730; <a href="http://192.168.0.100:8080" target="_blank">http://192.168.0.100:8080</a> &#x9032;&#x884C;&#x95B1;&#x8B80;&#x3002;</p>
-<pre><code class="lang-bash">npm run dev
+<pre class="language-"><code class="lang-bash"><span class="token function">npm</span> run dev
 </code></pre>
 <p>&#x5982;&#x679C;&#x8981;&#x76E3;&#x63A7;&#x6A94;&#x6848;&#x7684;&#x8B8A;&#x66F4;&#x5373;&#x6642;&#x7DE8;&#x8B6F;&#xFF0C;&#x8ACB;&#x65BC;&#x7B2C;&#x4E00;&#x6B21;&#x57F7;&#x884C; <code>dev</code> &#x5F8C;&#x522A;&#x9664;&#x8CC7;&#x6599;&#x593E; <code>_book</code>&#xFF0C;&#x5F8C;&#x7E8C;&#x7684;&#x8B8A;&#x66F4;&#x7686;&#x6703;&#x91CD;&#x65B0;&#x7DE8;&#x8B6F;&#xFF0C;&#x7DB2;&#x9801;&#x6703;&#x81EA;&#x52D5;&#x5237;&#x65B0;&#x3002;</p>
 <blockquote>
@@ -518,11 +528,11 @@
 </blockquote>
 <h3 id="build-to-html">Build To HTML</h3>
 <p>&#x4F7F;&#x7528; <code>build</code> &#x7DE8;&#x8B6F;&#x51FA;&#x975C;&#x614B;&#x6A94;&#x6848;&#xFF0C;&#x8F38;&#x51FA;&#x76EE;&#x9304;&#x70BA;&#x7576;&#x524D;&#x8DEF;&#x5F91;&#x5E95;&#x4E0B;&#x7684; <code>docs</code> &#x8CC7;&#x6599;&#x593E;&#x3002;</p>
-<pre><code class="lang-bash">npm run build
+<pre class="language-"><code class="lang-bash"><span class="token function">npm</span> run build
 </code></pre>
 <h3 id="convert-to-pdf">Convert To PDF</h3>
 <p>&#x4F7F;&#x7528; <code>pdf</code> &#x5C07;&#x7522;&#x51FA; PDF &#x6587;&#x4EF6;&#x3002;</p>
-<pre><code class="lang-bash">npm run pdf
+<pre class="language-"><code class="lang-bash"><span class="token function">npm</span> run pdf
 </code></pre>
 <blockquote>
 <p>&#x5982;&#x679C; OS &#x70BA; Windows&#xFF0C;&#x8ACB;&#x5148;&#x5B89;&#x88DD; <a href="https://calibre-ebook.com/download_windows" target="_blank">Calibre</a>&#xFF0C;&#x4E26;&#x91CD;&#x555F;&#x7D42;&#x7AEF;&#x6A5F;&#x3002;</p>
@@ -570,7 +580,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Edit GitBook","level":"1.7","depth":1,"next":{"title":"Components","level":"1.8","depth":1,"path":"source/edit/components.md","ref":"source/edit/components.md","articles":[{"title":"Note","level":"1.8.1","depth":2,"path":"source/edit/note.md","ref":"source/edit/note.md","articles":[]},{"title":"Breadcrumbs","level":"1.8.2","depth":2,"path":"source/edit/breadcrumbs.md","ref":"source/edit/breadcrumbs.md","articles":[]}]},"previous":{"title":"5. 地圖 🚧","level":"1.6","depth":1,"path":"source/map/index.md","ref":"source/map/index.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"source/edit/index.md","mtime":"2018-03-31T08:18:40.824Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-03-31T13:43:34.445Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Edit GitBook","level":"1.7","depth":1,"next":{"title":"Components","level":"1.8","depth":1,"path":"source/edit/components.md","ref":"source/edit/components.md","articles":[{"title":"Note","level":"1.8.1","depth":2,"path":"source/edit/note.md","ref":"source/edit/note.md","articles":[]},{"title":"Breadcrumbs","level":"1.8.2","depth":2,"path":"source/edit/breadcrumbs.md","ref":"source/edit/breadcrumbs.md","articles":[]}]},"previous":{"title":"5. 地圖 🚧","level":"1.6","depth":1,"path":"source/map/index.md","ref":"source/map/index.md","articles":[]},"dir":"ltr"},"config":{"plugins":["disqus","github","editlink","prism","-highlight","splitter","sitemap"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{},"disqus":{"useIdentifier":false,"shortName":"aon-dev-guide"},"github":{"url":"https://github.com/RemakeAONTeam/AON-Developer-Guide"},"editlink":{"label":"編輯本頁","multilingual":false,"base":"https://github.com/RemakeAONTeam/AON-Developer-Guide/blob/master"},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"sitemap":{"hostname":"https://remakeaonteam.github.io/AON-Developer-Guide"},"sharing":{"facebook":true,"twitter":false,"google":true,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"AON-Developer-Guide","language":"zh","gitbook":"*","description":"自己的英雄自己做，本書為 AON 的開發指南，如果你也有興趣參與開發，歡迎閱讀分享。"},"file":{"path":"source/edit/index.md","mtime":"2018-04-01T02:37:06.753Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-04-01T02:45:22.650Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
@@ -578,6 +588,26 @@
         
     <script src="../../gitbook/gitbook.js"></script>
     <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-disqus/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-editlink/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
     
         
         <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>

@@ -1,10 +1,10 @@
 
 <!DOCTYPE HTML>
-<html lang="" >
+<html lang="zh" >
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>2.3. 專案編譯 · GitBook</title>
+        <title>2.3. 專案編譯 · AON-Developer-Guide</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -17,7 +17,15 @@
     
             
                 
-                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-disqus/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-prism/prism.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
                 
             
                 
@@ -73,7 +81,7 @@
         
             
 <div id="book-search-input" role="search">
-    <input type="text" placeholder="Type to search" />
+    <input type="text" placeholder="輸入並搜尋" />
 </div>
 
             
@@ -453,7 +461,7 @@
 
     <li>
         <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
-            Published with GitBook
+            本書使用 GitBook 釋出
         </a>
     </li>
 </ul>
@@ -580,7 +588,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"2.3. 專案編譯","level":"1.3.3","depth":2,"next":{"title":"2.4. 更新專案","level":"1.3.4","depth":2,"path":"source/repo/update.md","ref":"source/repo/update.md","articles":[]},"previous":{"title":"2.2. 安裝套件","level":"1.3.2","depth":2,"path":"source/repo/thirdparty.md","ref":"source/repo/thirdparty.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"source/repo/compiled.md","mtime":"2018-03-31T12:44:28.479Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-03-31T13:43:34.445Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"2.3. 專案編譯","level":"1.3.3","depth":2,"next":{"title":"2.4. 更新專案","level":"1.3.4","depth":2,"path":"source/repo/update.md","ref":"source/repo/update.md","articles":[]},"previous":{"title":"2.2. 安裝套件","level":"1.3.2","depth":2,"path":"source/repo/thirdparty.md","ref":"source/repo/thirdparty.md","articles":[]},"dir":"ltr"},"config":{"plugins":["disqus","github","editlink","prism","-highlight","splitter","sitemap"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{},"disqus":{"useIdentifier":false,"shortName":"aon-dev-guide"},"github":{"url":"https://github.com/RemakeAONTeam/AON-Developer-Guide"},"editlink":{"label":"編輯本頁","multilingual":false,"base":"https://github.com/RemakeAONTeam/AON-Developer-Guide/blob/master"},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"sitemap":{"hostname":"https://remakeaonteam.github.io/AON-Developer-Guide"},"sharing":{"facebook":true,"twitter":false,"google":true,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"AON-Developer-Guide","language":"zh","gitbook":"*","description":"自己的英雄自己做，本書為 AON 的開發指南，如果你也有興趣參與開發，歡迎閱讀分享。"},"file":{"path":"source/repo/compiled.md","mtime":"2018-04-01T02:13:53.931Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-04-01T02:45:22.650Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
@@ -588,6 +596,26 @@
         
     <script src="../../gitbook/gitbook.js"></script>
     <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-disqus/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-editlink/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
     
         
         <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
