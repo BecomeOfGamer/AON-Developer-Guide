@@ -11,6 +11,10 @@
 npm install -g gitbook-cli
 ```
 
+```bash
+gitbook install
+```
+
 ### Run Gitbook
 
 #### View
