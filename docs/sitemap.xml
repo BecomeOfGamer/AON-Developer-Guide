@@ -21,6 +21,9 @@
 <url> <loc>https://remakeaonteam.github.io/source/skill/behavior/toggle.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://remakeaonteam.github.io/source/skill/behavior/immediate.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://remakeaonteam.github.io/source/map/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://remakeaonteam.github.io/source/unreal-teach/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://remakeaonteam.github.io/source/unreal-teach/common.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://remakeaonteam.github.io/source/unreal-teach/variable-map.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://remakeaonteam.github.io/source/edit/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://remakeaonteam.github.io/source/edit/components.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://remakeaonteam.github.io/source/edit/note.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
