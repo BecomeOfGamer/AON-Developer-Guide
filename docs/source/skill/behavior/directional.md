@@ -54,7 +54,7 @@
 #### 設定Bullet傷害:
 1. **Spawn Actor from Class**節點的Return Value右拉**Set Damage**
 2. Damage Map
-- 參考[信長Variable Map設定和呼叫](https://hackmd.io/MwVg7AZgDAJgTADgLTAEaSQFgMZQIxICcUqAhkgKZhQQIgBsUC9EFQA=#),得到此技能的傷害給**Set Damage**  
+- 參考[信長Variable Map設定和呼叫](/source/unreal-teach/common.md),得到此技能的傷害給**Set Damage**  
 ![](https://i.imgur.com/A8bcnul.png)
 
 ### 整個主圖:

@@ -47,7 +47,7 @@
 
 ###### 需先設定 Variable Map 中的 Damage Map
 
-- 參考[信長Variable Map設定和呼叫](https://hackmd.io/MwVg7AZgDAJgTADgLTAEaSQFgMZQIxICcUqAhkgKZhQQIgBsUC9EFQA=##)
+- 參考[信長Variable Map設定和呼叫](/source/unreal-teach/common.md#)
 
 ###### 呼叫攻擊計算函式
 1. 右鍵新增**Get Player Controller** 節點, 拉此節點轉換成**MOBAPlayerController**  
@@ -61,14 +61,14 @@
 - 傷害類型有物傷、法傷和純傷
 ![](https://i.imgur.com/vf24U23.png)
 5. 取得**Variable Map**中Damage Map : 
-- 參考[信長Variable Map設定和呼叫](https://hackmd.io/MwVg7AZgDAJgTADgLTAEaSQFgMZQIxICcUqAhkgKZhQQIgBsUC9EFQA=##)
+- 參考[信長Variable Map設定和呼叫](/source/unreal-teach/common.md#)
 6. AOE的攻擊階段Overview:  
 ![](https://i.imgur.com/PbqUpsX.png)
 
 ##### 對目標Buff時
 
 ###### 需先設定Variable Map中的 Map
-- 參考[信長Variable Map設定和呼叫](https://hackmd.io/MwVg7AZgDAJgTADgLTAEaSQFgMZQIxICcUqAhkgKZhQQIgBsUC9EFQA=##),設定Duration Map,如有其他效果Map也一併新增
+- 參考[信長Variable Map設定和呼叫](/source/unreal-teach/common.md#),設定Duration Map,如有其他效果Map也一併新增
 
 ###### 生成Buff
 和Passive的永久Buff不同, 需要設定Duration(效果期間)
@@ -83,7 +83,7 @@
 - **Spawn Actor from Class**節點的Return Value為一個HeroBuff的實體Actor, 右拉出**Set Duration**節點設定HeroBuff底下的一個變數Duration的值  
 ![](https://i.imgur.com/1ZxHQBE.png)
 3. 呼叫VariableMap的子Map給**Set Duration**節點 : 
-- 參考[信長Variable Map設定和呼叫](https://hackmd.io/MwVg7AZgDAJgTADgLTAEaSQFgMZQIxICcUqAhkgKZhQQIgBsUC9EFQA=##)
+- 參考[信長Variable Map設定和呼叫](/source/unreal-teach/common.md#)
 
 ###### 加Buff到英雄上
 1. 目標HeroCharacter(**ForEachLoop**的Array Element或者**Caster**), 右拉出的函式**Add Buff**, 不可重複的Buff則是**Add Unique Buff**  
@@ -100,7 +100,7 @@
 - 目標Character必定是敵人
 
 ###### 需先設定Variable Map中的 Map
-- 參考[信長Variable Map設定和呼叫](https://hackmd.io/MwVg7AZgDAJgTADgLTAEaSQFgMZQIxICcUqAhkgKZhQQIgBsUC9EFQA=##),新增此異常狀態的持續時間  
+- 參考[信長Variable Map設定和呼叫](/source/unreal-teach/common.md#),新增此異常狀態的持續時間  
 ![](https://i.imgur.com/zTXP4t7.png)
 
 ###### 生成Buff
@@ -162,7 +162,7 @@
 
 ### 3. 設定傷害 : 
 - **Spawn Actor from Class**節點的Return Value右拉**Set Damage**
-- 參考[信長Variable Map設定和呼叫]  (https://hackmd.io/MwVg7AZgDAJgTADgLTAEaSQFgMZQIxICcUqAhkgKZhQQIgBsUC9EFQA=#),呼叫Damage Map
+- 參考[信長Variable Map設定和呼叫]  (/source/unreal-teach/common.md),呼叫Damage Map
 ![](https://i.imgur.com/XhmKwjU.png)
 
 ### 4. 整個主圖 : 

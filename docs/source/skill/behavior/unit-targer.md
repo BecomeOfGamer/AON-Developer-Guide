@@ -27,7 +27,7 @@
 #### 傷害:
 
 ##### 0.設定Damage Map
-- 參考[信長Variable Map設定和呼叫](https://hackmd.io/MwVg7AZgDAJgTADgLTAEaSQFgMZQIxICcUqAhkgKZhQQIgBsUC9EFQA=#),新增Variable Map的子Map:Damage Map
+- 參考[信長Variable Map設定和呼叫](/source/unreal-teach/common.md),新增Variable Map的子Map:Damage Map
 
 ##### 1. 計算傷害:
 - 新增**Get Player Controller**節點, 右拉此節點**Cast To MOBAPlayerController**, As MOMAPlayerController右拉出**Server Attack Compute**  
@@ -38,7 +38,7 @@
 - Damage由Damage Map取得(依技能等級有所不同)
 
 ##### 2. 設定傷害:
-- 參考[信長Variable Map設定和呼叫](https://hackmd.io/MwVg7AZgDAJgTADgLTAEaSQFgMZQIxICcUqAhkgKZhQQIgBsUC9EFQA=#),呼叫Damage Map  
+- 參考[信長Variable Map設定和呼叫](/source/unreal-teach/common.md),呼叫Damage Map  
 ![](https://i.imgur.com/92zSxNF.png)
 - 傷害值丟給**Server Attack Compute**  
 ![](https://i.imgur.com/USscGut.png)
@@ -46,7 +46,7 @@
 #### Buff:
 
 ##### 0.設定Duration Map
-- 參考[信長Variable Map設定和呼叫](https://hackmd.io/MwVg7AZgDAJgTADgLTAEaSQFgMZQIxICcUqAhkgKZhQQIgBsUC9EFQA=#),新增Variable Map的子Map:Duration Map
+- 參考[信長Variable Map設定和呼叫](/source/unreal-teach/common.md),新增Variable Map的子Map:Duration Map
 - 可新增其他Map儲存Buff所需要用到跟技能等級掛勾的數值
 
 ##### 1.生成Buff
@@ -68,7 +68,7 @@
 - 參照上方給予敵方負面異常Buff+給予傷害合併即可
 
 ##### 需先設定Variable Map中的 Map
-- 參考[信長Variable Map設定和呼叫](https://hackmd.io/MwVg7AZgDAJgTADgLTAEaSQFgMZQIxICcUqAhkgKZhQQIgBsUC9EFQA=#),新增此異常狀態的持續時間  
+- 參考[信長Variable Map設定和呼叫](/source/unreal-teach/common.md),新增此異常狀態的持續時間  
 ![](https://i.imgur.com/zTXP4t7.png)
 
 ##### 1.[生成Buff](#1生成Buff)

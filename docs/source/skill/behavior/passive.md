@@ -41,7 +41,7 @@
 - 新增的element還需要加入一個浮點小數代表Buff的量
 
 #### 6.新增VariableMap的子Map
-- 參考[信長Variable Map設定和呼叫](https://hackmd.io/MwVg7AZgDAJgTADgLTAEaSQFgMZQIxICcUqAhkgKZhQQIgBsUC9EFQA=#)
+- 參考[信長Variable Map設定和呼叫](/source/unreal-teach/common.md)
 
 #### 7. Buff Unique Map新增的Buff效果數值
 - **Buff Unique Map**的**Add**節點下面的數值由Critical Map提供  
