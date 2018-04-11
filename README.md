@@ -16,9 +16,9 @@
 
 ### Documentation
 
-你可以在網站上找到開發指南。
+你可以點選以下連結開始閱讀。
 
-👉 [Quick Start](https://remakeaonteam.github.io/AON-Developer-Guide/)
+👉 [Start Reading](https://remakeaonteam.github.io/AON-Developer-Guide/)
 
 ### Contributing Guide
 
